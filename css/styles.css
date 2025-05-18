@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
 }
 
 /* ==================heder================= */
@@ -12,6 +14,11 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        line-height: 1.17;
+}
+
+.heder-address {
+    font-style: normal;
 }
 
 .heder-logo-accent {
@@ -39,6 +46,9 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
+.heder-address-list:hover {
+    color:#28a832;
+}
 
 /* =================Section-hero=================== */
 
@@ -62,11 +72,19 @@ body {
         letter-spacing: 0.04em;
         color: #fff;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background: #4d5ae5;  
+            background: #4d5ae5;
+            cursor: pointer;
+}
+
+.hero-but:hover {
+    background-color: #28a832
 }
 
 /* ==================section-Philosophy================= */
 
+.philosophy-title {
+    text-align: center; 
+}
 
 .philosophy-subtitle {
         font-weight: 500;
@@ -96,6 +114,12 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-align: center;
+        text-transform: capitalize;
+}
+
+.team-list {
+    background-color: #FFFFFF;
 }
 
 .team-subtitle {
@@ -124,6 +148,8 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-align: center;
+        text-transform: capitalize;
 }
 
 .portfolio-subtitle {
@@ -155,6 +181,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        line-height: 1.17;
 }
 
 .footer-text {
