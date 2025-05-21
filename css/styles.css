@@ -61,6 +61,7 @@ body {
         font-size: 56px;
         line-height: 1.07143;
         letter-spacing: 0.02em;
+        line-height: 1.07;
         text-align: center;
         color: #fff;
 }
@@ -77,7 +78,11 @@ body {
 }
 
 .hero-but:hover {
-    background-color: #28a832
+    color:#404BBF;
+}
+
+.hero-but:focus {
+    background-color: #404BBF;
 }
 
 /* ==================section-Philosophy================= */
@@ -106,6 +111,8 @@ body {
 */.section-team {
     background: #f4f4fd;
 }
+
+.team-list {background: #fff;}
 
 .team-title {
 
