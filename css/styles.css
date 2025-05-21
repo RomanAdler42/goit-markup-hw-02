@@ -40,14 +40,22 @@ body {
         color: #2e2f42;
 }
 
+.heder-nav-link:hover {
+    color:#404bbf;
+}
+
+.heder-nav-link:hover {
+    color:#404bbf;
+}
+
 .heder-address-list {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.heder-address-list:hover {
-    color:#28a832;
+.heder-address-link:hover {
+    color:#404bbf;
 }
 
 /* =================Section-hero=================== */
@@ -78,7 +86,7 @@ body {
 }
 
 .hero-but:hover {
-    color:#404BBF;
+    background-color: #404BBF;
 }
 
 .hero-but:focus {
