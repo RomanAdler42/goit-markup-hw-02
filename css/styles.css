@@ -6,32 +6,31 @@ body {
 
 /* ==================heder================= */
 
-.heder-logo {
+.header-logo {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-logo-accent {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.16;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4d5ae5;
-        line-height: 1.17;
-}
-
-.heder-address {
-    font-style: normal;
-}
-
-.heder-logo-accent {
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: #2e2f42;
 }
 
-.heder-nav-list {
+.header-nav-list {
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -40,21 +39,21 @@ body {
         color: #2e2f42;
 }
 
-.heder-nav-link:hover {
+.header-nav-link:hover {
     color:#404bbf;
 }
 
-.heder-nav-link:hover {
+.header-nav-link:focus {
     color:#404bbf;
 }
 
-.heder-address-list {
+.header-address-list {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.heder-address-link:hover {
+.header-address-link:hover {
     color:#404bbf;
 }
 
@@ -67,14 +66,13 @@ body {
 .hero-title {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
         letter-spacing: 0.02em;
         line-height: 1.07;
         text-align: center;
         color: #fff;
 }
 
-.hero-but {
+.hero-button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -85,11 +83,11 @@ body {
             cursor: pointer;
 }
 
-.hero-but:hover {
+.hero-button:hover {
     background-color: #404BBF;
 }
 
-.hero-but:focus {
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -120,7 +118,6 @@ body {
     background: #f4f4fd;
 }
 
-.team-list {background: #fff;}
 
 .team-title {
 
@@ -133,7 +130,7 @@ body {
         text-transform: capitalize;
 }
 
-.team-list {
+.team-item {
     background-color: #FFFFFF;
 }
 
